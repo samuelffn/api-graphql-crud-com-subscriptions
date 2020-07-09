@@ -6,4 +6,5 @@ Utilização do ES6, precisamos do Babel: **npm i @babel/core @babel/cli @babel/
 Nodemon: **npm i nodemon -D** ou **yarn add nodemon -D**  
 Apolo Server e GraphQL: **npm i apollo-server graphql** ou **yarn add apollo-server graphql**  
 Mongoose para o Mongo DB: **npm i mongoose** ou **yarn add mongoose**  
+Para trabalhar com vários Schemas do GraphQL: **npm i merge-graphql-schemas** ou **yarn add merge-graphql-schemas**
 
