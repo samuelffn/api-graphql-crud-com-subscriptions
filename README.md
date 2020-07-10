@@ -2,7 +2,7 @@
 Projetinho de GraphQL em Node JS sem a utilização de bando de dados Mongo DB. Ele é a continuação do projeto **api-graphql-com-banco-de-dados**, URL: https://github.com/samuelffn/api-graphql-sem-banco-de-dados  
 
 ## Para usar a API  
-1) Baixa o diretório do projeto: **git clone https://github.com/samuelffn/api-graphql-cadastro-users-e-messages.git** 
+1) Baixa o diretório do projeto: **git clone https://github.com/samuelffn/api-graphql-crud-users-messages.git** 
 2) Baixa as dependências do projeto: **npm i** ou **yarn install** 
 3) **npm run start** ou **yarn start** 
   
