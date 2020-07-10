@@ -1,0 +1,25 @@
+{
+  "name": "api-graphql-com-banco-de-dados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec babel-node src/index.js -e js, gql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  },
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "graphql": "^15.3.0",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^5.9.22"
+  }
+}
