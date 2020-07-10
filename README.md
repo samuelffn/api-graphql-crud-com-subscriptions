@@ -97,16 +97,16 @@ mongoose.connect('mongodb://localhost:27017/graphql-user-message', {
 
 ## Testando a API  
 
-**Inicia a API**
+**Iniciando a API**
 1) Executando no terminal: **npm run start** ou **yarn start**  
 2) Abra o navegador e acesse: **http://localhost:4000**  
 3) Observe que o navegador que o **Playground** já é carregado. Ele é como um Insomnia ou Postman da vida. No Playground faremos os nossos testes.  
 4) Na área abaixo da URL digite as queries que segem como exemplo abaixo.  
   
-### Exemplos para requisições no Playground
+### Exemplos para requisições no Playground  
 
-**User - Mutation**
-*createUser*
+**User - Mutation**  
+*createUser*  
 ```
 mutation {
   createUser (data: {
@@ -120,14 +120,14 @@ mutation {
 }
 ```
 
-*deleteUser*
+*deleteUser*  
 ```
 mutation {
   deleteUser(id: "5f07ae22df97bf3ffac4763c")
 }
 ```
 
-*updateUser*
+*updateUser*  
 ```
 mutation {
   updateUser(id: "5f07af75df97bf3ffac4763d", data: {
@@ -142,7 +142,7 @@ mutation {
 ```
 
 **User - Query**  
-*users*
+*users*  
 ```
 query {
   users {
@@ -151,7 +151,7 @@ query {
 }
 ```
 
-*user*
+*user*  
 ```
 query{
   user(id: "5f07af75df97bf3ffac4763d") {
@@ -160,8 +160,8 @@ query{
 }
 ```
 
-**Message - Mutation**
-*createMessage*
+**Message - Mutation**  
+*createMessage*  
 ```
 mutation {
   createMessage(data: {
@@ -174,8 +174,8 @@ mutation {
 }
 ```
 
-**Message - Query**
-messages
+**Message - Query**  
+messages  
 ```
 query{
   messages {
