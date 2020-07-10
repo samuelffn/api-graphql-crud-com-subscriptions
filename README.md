@@ -1,4 +1,4 @@
-# api-graphql-cadastro-users-e-messages
+# api-graphql-crud-users-messages
 Projetinho de GraphQL em Node JS sem a utilização de bando de dados Mongo DB. Ele é a continuação do projeto **api-graphql-com-banco-de-dados**, URL: https://github.com/samuelffn/api-graphql-sem-banco-de-dados  
 
 ## Para usar a API  
