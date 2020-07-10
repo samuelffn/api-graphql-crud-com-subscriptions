@@ -1,5 +1,6 @@
-# api-graphql-crud-users-messages
-Projetinho de GraphQL em Node JS sem a utilização de bando de dados Mongo DB. Ele é a continuação do projeto **api-graphql-com-banco-de-dados**, URL: https://github.com/samuelffn/api-graphql-sem-banco-de-dados  
+# api-graphql-crud-com-subscriptions
+Projetinho de GraphQL em Node JS sem a utilização de bando de dados Mongo DB. Ele é a continuação do projeto **api-graphql-com-banco-de-dados**, URL: https://github.com/samuelffn/api-graphql-sem-banco-de-dados.  
+Este projeto tem uma implementação com subscriptions. Subscriptiosn é a forma de temos de trabalhar com websocket/real time dentro do GraphQL. Toda vez que um usuário for registrado na aplicação uma notificaao será enviada para quem estiver inscrito.  
 
 ## Para usar a API  
 1) Baixa o diretório do projeto: **git clone https://github.com/samuelffn/api-graphql-crud-users-messages.git** 
@@ -188,3 +189,32 @@ query{
   }
 }
 ```
+
+**Subscriptions**
+Primeiro execute uma chamada de Subscription. Podem ser todas ao mesmo tempo, mas separadas, cada uma na sua
+aba. Em seguida, também em outras abas execte as mutations de Create, Update e Delete (Cada uma na sua aba).  
+  
+*userAdded*  
+```  
+subscription {
+  userAdded {
+     _id firstName lastName fullName email active
+  }
+}
+```  
+  
+*userUpdate*  
+```  
+subscription {
+  userUpdate {
+     _id firstName lastName fullName email active
+  }
+}
+```  
+  
+*userDeleted*  
+```  
+subscription {
+  userDeleted
+}
+```  
