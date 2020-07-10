@@ -190,7 +190,7 @@ query{
 }
 ```
 
-**Subscriptions**
+**Subscriptions**  
 Primeiro execute uma chamada de Subscription. Podem ser todas ao mesmo tempo, mas separadas, cada uma na sua
 aba. Em seguida, também em outras abas execte as mutations de Create, Update e Delete (Cada uma na sua aba).  
   
@@ -218,3 +218,5 @@ subscription {
   userDeleted
 }
 ```  
+  
+A atualização na subcription acorre simultânea com a ação das Mutations.
