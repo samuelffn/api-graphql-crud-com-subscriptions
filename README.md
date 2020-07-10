@@ -1,5 +1,5 @@
 # api-graphql-crud-com-subscriptions
-Projeto de GraphQL em Node JS e com o Mongo DB. Ele é a continuação do projeto **api-graphql-com-banco-de-dados**, URL: https://github.com/samuelffn/api-graphql-sem-banco-de-dados.  
+Projeto de GraphQL em Node JS e com o Mongo DB. Ele é a continuação do projeto **api-graphql-com-banco-de-dados**, URL: https://github.com/samuelffn/api-graphql-crud-com-subscriptions.git.  
 Este projeto tem uma implementação com subscriptions. Subscriptiosn é a forma de temos de trabalhar com websocket/real time dentro do GraphQL. Toda vez que um usuário for registrado na aplicação uma notificaao será enviada para quem estiver inscrito.  
 
 ## Para usar a API  
