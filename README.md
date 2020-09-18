@@ -101,7 +101,7 @@ mongoose.connect('mongodb://localhost:27017/graphql-user-message', {
 **Iniciando a API**
 1) Executando no terminal: **npm run start** ou **yarn start**  
 2) Abra o navegador e acesse: **http://localhost:4000**  
-3) Observe que o navegador que o **Playground** já é carregado. Ele é como um Insomnia ou Postman da vida. No Playground faremos os nossos testes.  
+3) Observe que o navegador que o **Playground** já é carregado (Ele é como um Insomnia ou Postman da vida). No Playground faremos os nossos testes.  
 4) Na área abaixo da URL digite as queries que segem como exemplo abaixo.  
   
 ### Exemplos para requisições no Playground  
