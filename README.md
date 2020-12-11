@@ -220,4 +220,6 @@ subscription {
 }
 ```  
   
-A atualização na subcription acorre simultânea com a ação das Mutations.
+A atualização na subcription acorre simultânea com a ação das Mutations.  
+Pra entender melhor o exemplo você pode utilizar algumas mutatios, como create, update e delete e à medida que for utilizando acompanhar o report que é feito às subscribes que estão escutando.  
+  
