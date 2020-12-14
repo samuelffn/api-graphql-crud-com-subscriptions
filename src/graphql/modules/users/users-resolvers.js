@@ -58,12 +58,12 @@ O método User.findOneAndUpdate(id, data, { new: true }), precisou dessa flag { 
 os dados após a atualização.
 
 O terceiro parâmetro Contex:
-- Esse terceiro parâmetro context dentro de Subscription é uma forma que temos de compartilhar informações entre 
+- Esse terceiro parâmetro context { pubsub } dentro de Subscription é uma forma que temos de compartilhar informações entre 
 todos os resolvers da nossa aplicação.
 - O context não é algo exclusivo da Subscription, podemos utilizar ele nas Mutations, Query, nos nossos 
 objetos, como o User.
-- Tudo o que for resulver na aplicação tem acessar o context.
+- Tudo o que for resolver na aplicação tem acessar o context.
 - Para adicionar informções na variável context precisamos passar valores no new ApolloServer, que no nosso caso
-está em startServer.js, na raíz do projeto.  É passado no terceiro parâmetro context: {pubsub}.
+está em startServer.js, na raíz do projeto.  É lá onde passamos o terceiro parâmetro context: { pubsub }.
 
 */
