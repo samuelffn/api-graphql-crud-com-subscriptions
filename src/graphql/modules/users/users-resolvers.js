@@ -53,7 +53,7 @@ export default {
 };
 
 /*
-No UpdataUser:
+No UpdateUser:
 O método User.findOneAndUpdate(id, data, { new: true }), precisou dessa flag { new: true } para que ele retorne
 os dados após a atualização.
 
