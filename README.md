@@ -117,16 +117,17 @@ mongoose.connect('mongodb://localhost:27017/graphql-user-message', {
 3) Abra a pasta, por exemplo: **cd home/user/Downloads/robo3t-1.3.1-linux-x86_64-7419c406/bin**  
 4) Executa o **robo3t**  
   
-**Criando um banco no mongo usando o Robo 3T**  
-1) Clica em MongoDB Connections, em seguida em Create  
-    Em Type: **Direct Connection**  
-    Em Name: O nome que peferir. Ex: **MongoDB-Docker**  
-    Em Address: **Localhost**  
-    Em porta: **27017** (é a default, que utilizamos na criação do container)  
-2) Clica em **Test** pra testar a conexão  
-3) Clica em **Save**  
-4) De volta à janela do MongoDB Connections, escolhe a conexão criada e depois clica em **Connect**  
-5) Observe que ainda não temos tabelas criadas, pois nossa **API do GraphQL** irá criá-las.  
+**Conectando o Robo 3T ao Mongo**  
+1) Abra o **Robo 3T**  
+2) Clique em clica em **File**, depois em **Connect...** ou Clique em **MongoDB Connections**, em seguida em **Create**  
+    2.1- Em Type: **Direct Connection**  
+    2.2- Em Name: O nome que você quizer, Ex.: **MongoDB-Docker**  
+    2.3- Em Address: **Localhost**  
+    1.4- Em porta: **27017** (é a default, que utilizamos na criação do container)  
+3) Clique em **Test** pra testar a conexão  
+4) Clique em **Save**  
+5) De volta à janela do **MongoDB Connections**, escolha a conexão criada e depois clique em **Connect** 
+6) Observe que ainda não temos tabelas criadas, pois nossa **API GraphQL** e irá criá-las.  
 
 
 ## Testando a API  
