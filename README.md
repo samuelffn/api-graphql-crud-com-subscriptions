@@ -1,11 +1,10 @@
 # api-graphql-crud-com-subscriptions
 Projeto de GraphQL em Node JS e com o Mongo DB. Ele é a continuação do projeto **api-graphql-com-banco-de-dados**, URL: https://github.com/samuelffn/api-graphql-crud-com-subscriptions.git.  
-Este projeto tem uma implementação com subscriptions. Subscriptiosn é a forma de temos de trabalhar com websocket/real time dentro do GraphQL. Toda vez que um usuário for registrado na aplicação uma notificaao será enviada para quem estiver inscrito.  
+Este projeto tem uma implementação com subscriptions. Subscriptions é a forma de temos de trabalhar com websocket/real time dentro do GraphQL. Toda vez que um usuário for registrado na aplicação uma notificação será enviada para quem estiver inscrito.  
 Temos um exemplo na AWS https://docs.aws.amazon.com/appsync/latest/devguide/aws-appsync-real-time-data.html   
 
 ## Para usar a API  
-1) Baixa o diretório do projeto: **git clone https://github.com/samuelffn/api-graphql-crud-users-messages.git** 
-2) Baixa as dependências do projeto: **npm i** ou **yarn install** 
+1) Instale as dependências do projeto: **npm i** ou **yarn install** 
 3) **npm run start** ou **yarn start** 
   
 ## Dependências utilizadas  
@@ -45,7 +44,7 @@ Obs.: O npm run serve para executar os comandos que estão em script
 ### Mogoose  
 **npm install mongoose**   
 O mongoose é um ORM (Object Relacional Mapping) de bancos não relacionais.  
-O ORM vai emcapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguagem do banco de dados e utilizará o JavaScript para realizar operações no banco.    
+O ORM vai encapsular a lógica das operações do banco de dados através do código. Sendo assim não será utilizada a linguagem do banco de dados e utilizará o JavaScript para realizar operações no banco.    
 Ao executar a aplicação pela primeira vez ela vai criar o banco de dados que foi definido em **src/startServer.  js** com o nome **graphql-user-message** dado em:  
 ```
 mongoose.connect('mongodb://localhost:27017/graphql-user-message', {
