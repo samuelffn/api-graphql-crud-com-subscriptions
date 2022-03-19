@@ -112,9 +112,10 @@ mongoose.connect('mongodb://localhost:27017/graphql-user-message', {
 ## Robo 3T  
 É um visualizador para dados do MongDB  
 **Instalação**  
-1) Link: https://robomongo.org/download e escolhe a opção Robo 3T (formerly Robomongo)  
-2) Depois de fazer o download, abre a pasta **/home/user/Downloads/robo3t-1.3.1-linux-x86_64-7419c406/bin**  
-3) Executa o **robo3t**  
+1) Link: https://robomongo.org/download e escolhe a opção **Robo 3T: the hobbyist GUI**  
+2) Depois de fazer o download, descompacte o pacote e mova a pasta para o local que preferir  
+3) Abra a pasta, por exemplo: **cd home/user/Downloads/robo3t-1.3.1-linux-x86_64-7419c406/bin**  
+4) Executa o **robo3t**  
   
 **Criando um banco no mongo usando o Robo 3T**  
 1) Clica em MongoDB Connections, em seguida em Create  
